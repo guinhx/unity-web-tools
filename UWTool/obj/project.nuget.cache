@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lzs/IyRx9HEykcilvVPC6SrMzI/EKPpNIHYup+fsq4knccgl0aV7FfwgoUT5nn7/7iAhojpSDoleBBIBXixZJw==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\UWTool\\UWTool\\UWTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\brotli.net\\2.1.1\\brotli.net.2.1.1.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

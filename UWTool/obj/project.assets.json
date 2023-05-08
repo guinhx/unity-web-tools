@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Brotli.NET/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Brotli.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Brotli.Core.dll": {}
+        },
+        "build": {
+          "build/Brotli.NET.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/brolib_x64.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/brolib_x86.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/brolib_x64.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win/native/brolib_x64.dll": {
+            "assetType": "native",
+            "rid": "win"
+          },
+          "runtimes/win/native/brolib_x86.dll": {
+            "assetType": "native",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Brotli.NET/2.1.1": {
+      "sha512": "OJ7B5uJDeza9uWsCimhB0S0Yt0mfoKcc4vFaEcxV7NhAyX/KSYvxVX6jjnl1p2rKvUlHrvAE6e22XGXDSvrNFA==",
+      "type": "package",
+      "path": "brotli.net/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "brotli.net.2.1.1.nupkg.sha512",
+        "brotli.net.nuspec",
+        "build/Brotli.NET.targets",
+        "lib/net45/Brotli.Core.dll",
+        "lib/netstandard2.0/Brotli.Core.dll",
+        "runtimes/linux/native/brolib_x64.so",
+        "runtimes/linux/native/brolib_x86.so",
+        "runtimes/osx/native/brolib_x64.dylib",
+        "runtimes/win/native/brolib_x64.dll",
+        "runtimes/win/native/brolib_x86.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Brotli.NET >= 2.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Diego\\.nuget\\packages\\": {},
+    "C:\\Users\\Diego\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\UWTool\\UWTool\\UWTool.csproj",
+      "projectName": "UWTool",
+      "projectPath": "C:\\dev\\UWTool\\UWTool\\UWTool.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\UWTool\\UWTool\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\Diego\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Brotli.NET": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.14, 6.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.14, 6.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.14, 6.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.14, 6.0.14]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
